@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(3, 400px); /* Three equal-width columns */
+    gap: 20px; /* Add a 20px gap between grid items */
+    padding: 20px; /* Add some padding to the gallery */
+}
+
+/* Style the grid items */
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ensure images fit within their containers */
+.item img{
+    max-width: 100%;
+    height: auto;
+}
+#Image4{
+    width: 1000px;
+    height: 300px;
+}
+#Image5{
+    width: 1000px;
+    height: 300px;
+}
+#Image6{
+    width: 1000px;
+    height: 300px;
+}
